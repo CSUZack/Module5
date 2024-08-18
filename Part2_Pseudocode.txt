@@ -1,4 +1,12 @@
-startTime = user entered integer
-hoursToWait = user entered integer
+numBooks = user input
 
-output (startTime + hoursToWait) % 24
+if numBooks >= 2 and numBooks < 4:
+    points = 5
+elif numBooks >= 4 and numBooks < 6:
+    points = 15
+elif numBooks >= 6 and numBooks < 8:
+    points = 30
+elif numBooks >= 8:
+    points = 60
+
+output points
