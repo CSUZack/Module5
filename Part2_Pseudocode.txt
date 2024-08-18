@@ -1,0 +1,4 @@
+startTime = user entered integer
+hoursToWait = user entered integer
+
+output (startTime + hoursToWait) % 24

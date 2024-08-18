@@ -1,0 +1,10 @@
+numYears = user entered integer
+rainData = []
+loop numYears times:
+    loops 12 times:
+        rainfall = user input
+        insert rainfall into rainData
+
+output length of rainData
+output sum of rainData
+output average of rainData
